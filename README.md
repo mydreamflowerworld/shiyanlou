@@ -1,2 +1,0 @@
-# shiyanlou
-githubstudy
