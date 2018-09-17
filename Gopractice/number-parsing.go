@@ -15,10 +15,10 @@ func main() {
 
 	u, _ := strconv.ParseUint("789", 0, 64)
 	fmt.Println(u)
-
+	//10进制整型数转换函数
 	k, _ := strconv.Atoi("135")
 	fmt.Println(k)
-
+	//输入错误时，解析函数会返回一个错误
 	_, e := strconv.Atoi("wat")
 	fmt.Println(e)
 }
