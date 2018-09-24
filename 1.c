@@ -3,7 +3,7 @@ typedef struct LNode*List;
 struct LNode{
 	ElementType Data;
 	List Next;
-};
+}
 struct LNode L;
 List PtrL;
 //求表长
